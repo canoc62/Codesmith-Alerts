@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Hello World",
+  "version": "1.0",
+  "description": "My first Chrome Extension!",
+  "icons": {
+  	"128": "icon128.png",
+  	"48": "icon48.png",
+  	"16": "icon16.png"
+  },
+  "browser_action": {
+  	// TOOL BAR ICON
+  	"default_icon": "icon16.png",
+  	// THE UI
+  	"default_popup": "popup.html"
+  }
+}
